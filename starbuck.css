@@ -1,0 +1,370 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width:100%;
+    height:20vh;
+    /* background-color: rgb(230, 230, 39); */
+   margin: 0;
+}
+.head-1{
+    width: 100%;
+    height:70px;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+.person-icon{
+    width: 35px;
+    height: 40px;
+    position: relative;
+    top: -65px;
+    left: 89%;
+}
+.head-2{
+    width: 100%;
+    height:80px;
+    background-color: rgb(22, 59, 48); 
+     margin-top:70px; 
+    
+}
+.img-starbuck{
+    width: 50px;
+    padding-left:110px;
+    padding-top:10px;
+}
+ .head-section{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    
+} 
+a{
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+input{
+  
+    position: absolute;
+    right: 256px;
+    top: 15px;
+    width: 170px;
+    height:35px;
+    border-radius:50px;
+    border: 1px solid grey;
+    padding-left:45px;
+    font-size:12px; 
+    padding-right: 30px;
+    background-color:transparent;
+    
+    
+} 
+
+ i{
+    padding-left:68%;
+    padding-top: -102px;
+   position: relative;
+   top:-35px;
+   tab-size: 10px;
+   
+   
+} 
+.heading{
+    color: white;
+    font-size: larger;
+    padding-left:110px;
+    padding-top:30px;
+}
+.button-1{
+    position: absolute;
+    right: 160px;
+    top: 95px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 95px;
+    height: 30px;
+    color: white;
+}
+.box-1{
+    width: 84%;
+    height: 220px;
+    background-color: rgba(139, 185, 169, 0.432);
+    margin-left:110px;
+    margin-top: 25px;
+    border: 2px solid rgba(139, 185, 169, 0.432);
+    border-radius: 8px;
+    display: flex;
+}
+
+.img-box{
+    width: 115%;
+    height: 208px;
+    margin-top: -25px;
+    
+}
+.box-content{
+    width:100%;
+    height:200px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.button-2{
+    position: relative;
+    top: 0%;
+    left: 79%;
+    background-color: #00754a;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.img-heading{
+    margin-left:110px;
+    margin-top:40px;
+    font-family: sans-serif;
+}
+.image-container{
+    width:84%;
+    height: 200px;
+    margin-left:110px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.images{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+  
+}
+.box-2{
+    width: 100%;
+    height: 300px;
+    
+    background-color: #edebe9;
+}
+.box-2-heading{
+    color: #1e3932;
+    margin-left:110px;
+    margin-top: 3px;
+   
+}
+.menubar{
+    color:#00754a;
+    font-size: small;
+    margin-left:70%;
+}
+.leaf{
+    width: 57px;
+    height: 70px;
+    position: relative;
+    top: 0;
+  left: 47px;
+}
+.box2-innerdiv{
+    width:84%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:110px;
+}
+.box-2-content{
+    width:32%;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #e4e1ddc1;
+    display: flex;
+}
+.box2-img-part{
+    width: 30%;
+    height: 150px;
+    margin-top:15px;
+    margin-left: 20px;
+  
+}
+.box2-content-part{
+    width: 70%;
+    height: 150px;
+    
+
+}
+.img-rcmnd{
+    width: 80px;
+    height: 80px;    
+    border-radius:8px;
+    object-fit: cover;
+   
+}
+.img-veg{
+    width:16px;
+    height: 16px;
+    padding-top:20px;
+    
+
+}
+.para{
+    margin-top:-1px;
+}
+.para-2{
+    font-size:10px;
+    font-family: monospace;
+    opacity: .5;
+    margin-top: -10px;
+}
+.button-3{
+    width: 100px;
+    height: 30px;
+    background-color: #00754a;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-left:130px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.cash{
+    font-size:13px;
+}
+.box-3{
+   width:100%;
+   height: 600px;
+   background-color:#e4e1ddc1  ;
+   margin-top:30px;
+   padding-top:5px;
+
+}
+
+.bg-img{
+    background: url(/images/background\ cup.jpg);  
+    width:84%;
+    height:450px;
+    overflow: hidden;  
+    margin-left:110px;
+    color: white;
+    border-radius:10px;
+    padding: 2px 4px;
+    
+    
+}
+.bg-img:hover{
+    background-image: url(/images/background\ cofee.jpg);
+    border-image: fill 0 linear-gradient(#0001,#000);
+    
+}
+
+.discover{
+    color: #00754a;
+    margin-left:86%;
+   font-family: sans-serif;
+   font-weight: bold;
+   position: relative;
+   top: -44px;
+}
+.bg-head{
+    padding-left:110px;
+}
+.bg-text{
+    padding-left: 20px;
+    padding-top:200px;
+}
+.bg-text2{
+    padding-left: 20px;
+   
+}
+.coffee-culture{
+    width:70px;
+    background-color:#e6edeb;
+    color: #096;
+    border-radius: 4px;
+    margin-left: 20px;
+    font-size: 11px;
+}
+.learn-btn{
+    width:200px;
+    height:40px;
+   margin-left:20px;
+   border-radius: 50px;
+   margin-top: 30px;
+
+}
+
+.footer{
+    width: 100%;
+    height: 90vh;
+    background-color: #0e382c;
+    display: flex;
+    padding-top:80px;
+    padding-left:50px;
+    margin-top: 30px;
+}
+.footer-content{
+    width:15%;
+    height: 80vh;
+    color: white;
+    
+    
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.apple-logo{
+  margin-top: 20px;
+}
+.logo-s{
+    margin-top:25px;
+    margin-left: 80px;
+}
+hr{
+    position: relative;
+    top: -115px;
+    width: 80%;
+}
+.footer-botm{
+    width: 30%;
+    height: 30px;
+    color: white;
+    display: flex;
+    position: relative;
+    left: 150px;
+    top: -100px;
+}
+.footer-box{
+    width:500px;
+    height: 15px;
+    font-size: 12px;
+    border-left:2px solid ;
+    padding-left:8px;
+    margin-left: 10px;
+}
+.link{
+    position: relative;
+    left: 65%;
+    top: -130px;
+    font-size:12px;
+    color: white;
+    font-weight: lighter;
+}
